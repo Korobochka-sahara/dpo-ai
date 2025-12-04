@@ -1,0 +1,12 @@
+name,dtype,non_null,missing,missing_share,unique,is_numeric,min,max,mean,std
+user_id,int64,50,0,0.0,48,True,1.0,50.0,24.9,15.229201273493349
+age,int64,50,0,0.0,21,True,25.0,45.0,32.62,5.236800705836824
+salary,int64,50,0,0.0,44,True,47500.0,90000.0,59670.0,10422.018489129401
+department,object,50,0,0.0,4,False,,,,
+experience_years,int64,50,0,0.0,17,True,0.0,16.0,5.22,4.006576226808182
+performance_score,int64,50,0,0.0,27,True,0.0,100.0,85.8,14.45612644648402
+bonus,int64,50,0,0.0,43,True,0.0,8500.0,2992.0,1894.1197945004342
+attendance,float64,50,0,0.0,31,True,0.0,100.0,91.44,14.111668351880633
+training_hours,int64,50,0,0.0,43,True,0.0,100.0,46.52,19.810572316573897
+project_count,int64,50,0,0.0,16,True,0.0,15.0,4.46,3.6433333022138403
+is_manager,int64,50,0,0.0,2,True,0.0,1.0,0.46,0.5034574339058886
