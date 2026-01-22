@@ -6,9 +6,31 @@
         "n_estimators": 200
     },
     "metrics_test": {
-        "accuracy": 0.9748,
-        "f1": 0.7,
-        "roc_auc": 0.8905346289474674
+        "Dummy": {
+            "accuracy": 0.9508,
+            "f1": 0.0,
+            "roc_auc": 0.5
+        },
+        "LogisticRegression": {
+            "accuracy": 0.9632,
+            "f1": 0.42857142857142855,
+            "roc_auc": 0.8339874679773299
+        },
+        "DecisionTree": {
+            "accuracy": 0.9676,
+            "f1": 0.5970149253731343,
+            "roc_auc": 0.8283405330898072
+        },
+        "RandomForest": {
+            "accuracy": 0.9738,
+            "f1": 0.6391184573002755,
+            "roc_auc": 0.9019345283902985
+        },
+        "GradientBoosting": {
+            "accuracy": 0.9748,
+            "f1": 0.7,
+            "roc_auc": 0.8905346289474674
+        }
     },
     "top_features": [
         "f58",
