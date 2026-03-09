@@ -1,0 +1,8 @@
+experiment_id,dataset,seed,model_summary,optimizer,lr,momentum,weight_decay,epochs_trained,best_val_accuracy,best_val_loss
+E1,EMNIST,42,512-256-128 ReLU,Adam,0.001,0.0,0.0,15,0.851,0.469
+E2,EMNIST,42,512-256-128 + Dropout(0.3),Adam,0.001,0.0,0.0,11,0.851,0.436
+E3,EMNIST,42,512-256-128 + BatchNorm,Adam,0.001,0.0,0.0,15,0.856,0.433
+E4,EMNIST,42,Dropout + EarlyStopping,Adam,0.001,0.0,0.0,20,0.857,0.430299718329247
+O1,EMNIST,42,same as E4,Adam,0.1,0.0,0.0,6,,
+O2,EMNIST,42,same as E4,Adam,1e-05,0.0,0.0,6,,
+O3,EMNIST,42,same as E4,SGD,0.01,0.9,0.0001,12,,

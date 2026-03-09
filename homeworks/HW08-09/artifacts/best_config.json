@@ -1,0 +1,14 @@
+{
+    "dataset": "EMNIST",
+    "seed": 42,
+    "hidden_sizes": [
+        512,
+        256,
+        128
+    ],
+    "activation": "ReLU",
+    "dropout": 0.3,
+    "batchnorm": false,
+    "optimizer": "Adam",
+    "lr": 0.001
+}
