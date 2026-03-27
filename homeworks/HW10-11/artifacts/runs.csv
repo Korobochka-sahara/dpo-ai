@@ -1,0 +1,7 @@
+experiment_id,task,dataset,seed,model_summary,optimizer,lr,epochs_trained,best_val_accuracy,test_accuracy,precision,recall,mean_iou,notes
+C1,classification,STL10,42,SimpleCNN,Adam,0.001,10,0.578,0.5490999999999999,,,,"без аугментаций, 3 слоя CNN"
+C2,classification,STL10,42,SimpleCNN,Adam,0.001,10,0.578,0.5548799999999999,,,,"с аугментациями (HorizontalFlip, RandomCrop, ColorJitter)"
+C3,classification,STL10,42,ResNet18_head_only,Adam,0.001,10,0.946,0.9176199999999999,,,,"заморожен backbone, обучается только fc"
+C4,classification,STL10,42,ResNet18_finetune,Adam,0.0001,10,0.951,0.952875,,,,"fine-tune layer4 + fc, lr=1e-4"
+V1,detection,PascalVOC,42,FasterRCNN_ResNet50_FPN,SGD,0.005,0,,,0.4999999375000079,0.9999997500000625,0.7796120643615723,"threshold=0.3, pretrained на COCO, inference only"
+V2,detection,PascalVOC,42,FasterRCNN_ResNet50_FPN,SGD,0.005,0,,,0.599999880000024,0.7499998125000469,0.7918816208839417,"threshold=0.7, pretrained на COCO, inference only"

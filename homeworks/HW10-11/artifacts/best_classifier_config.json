@@ -1,0 +1,11 @@
+{
+    "best_experiment": "C4",
+    "best_val_accuracy": 0.951,
+    "test_accuracy": 0.952875,
+    "model_type": "ResNet18",
+    "dataset": "STL10",
+    "seed": 42,
+    "batch_size": 64,
+    "num_epochs": 10,
+    "optimizer": "Adam"
+}

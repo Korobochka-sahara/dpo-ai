@@ -40,7 +40,7 @@ Batch size: 128
 Epochs (макс): 20
 EarlyStopping: patience = 4, metric = validation loss
 
-## 5. Часть A (S08): регуляризация
+## 5. Часть A (S08): регуляризация (E1-E4)
 
 Были проведены следующие эксперименты.
 
@@ -49,7 +49,7 @@ E2 (Dropout): Та же архитектура, но добавлен Dropout (p
 E3 (BatchNorm): Та же архитектура, но добавлены слои BatchNorm.
 E4 (EarlyStopping): Лучшая модель из E2/E3 обучалась с использованием EarlyStopping.
 
-## 6. Часть B (S09): LR, оптимизаторы, weight decay
+## 6. Часть B (S09): LR, оптимизаторы, weight decay (O1-O3)
 
 Были проведены три эксперимента.
 
