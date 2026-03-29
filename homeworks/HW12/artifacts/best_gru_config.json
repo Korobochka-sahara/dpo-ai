@@ -3,5 +3,9 @@
     "hidden_size": 32,
     "lr": 0.001,
     "epochs": 10,
-    "seed": 42
+    "seed": 42,
+    "scaler": "StandardScaler",
+    "normalization": "target standardized on train only",
+    "scaler_mean": 128.25752820172525,
+    "scaler_scale": 18.48707888127299
 }
