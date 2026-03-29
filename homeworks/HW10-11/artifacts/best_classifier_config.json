@@ -1,11 +1,29 @@
 {
     "best_experiment": "C4",
-    "best_val_accuracy": 0.951,
-    "test_accuracy": 0.952875,
+    "best_val_accuracy": 0.95,
+    "test_accuracy": 0.950875,
     "model_type": "ResNet18",
     "dataset": "STL10",
     "seed": 42,
     "batch_size": 64,
     "num_epochs": 10,
-    "optimizer": "Adam"
+    "optimizer": "Adam(lr=1e-4)",
+    "transforms": {
+        "base": [
+            "ToTensor()"
+        ]
+    },
+    "augmentation": {
+        "train_aug": [
+            "RandomHorizontalFlip()",
+            "RandomCrop(96, padding=4)",
+            "ColorJitter(0.2, 0.2)"
+        ]
+    },
+    "preprocess": {
+        "resnet_pretrained": [
+            "ResNet18_Weights.DEFAULT",
+            "weights.transforms()"
+        ]
+    }
 }
