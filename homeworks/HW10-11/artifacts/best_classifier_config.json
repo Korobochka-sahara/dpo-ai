@@ -1,7 +1,7 @@
 {
     "best_experiment": "C4",
-    "best_val_accuracy": 0.95,
-    "test_accuracy": 0.950875,
+    "best_val_accuracy": 0.865,
+    "test_accuracy": 0.867125,
     "model_type": "ResNet18",
     "dataset": "STL10",
     "seed": 42,
