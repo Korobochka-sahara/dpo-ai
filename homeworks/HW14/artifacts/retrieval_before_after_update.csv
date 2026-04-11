@@ -1,0 +1,11 @@
+query,before_retrieved_sources,after_retrieved_sources,changed
+What is FAISS?,"['FAISS is a library developed', 'Deep learning is a subset', 'Pandas is a Python library']","['FAISS is a library developed', 'FAISS supports GPU acceleration.', 'FAISS supports GPU acceleration for']",True
+What is recall?,"['Recall measures how many relevant', 'Deep learning is a subset', 'Pandas is a Python library']","['Recall measures how many relevant', 'Recall can be improved by', 'Pandas is a Python library']",True
+What is precision?,"['Precision measures how many retrieved', 'Deep learning is a subset', 'Pandas is a Python library']","['Precision measures how many retrieved', 'Precision decreases when too many', 'Pandas is a Python library']",True
+What are embeddings?,"['Embeddings convert text into dense', 'results are relevant.', 'Retrieval systems are used to']","['Embeddings convert text into dense', 'results are relevant.', 'irrelevant documents are retrieved.']",True
+What is machine learning?,"['machine learning systems.', 'Deep learning is a subset', 'data science, machine learning, and']","['machine learning systems.', 'Deep learning is a subset', 'data science, machine learning, and']",False
+What is pandas?,"['Pandas is a Python library', 'Deep learning is a subset', 'FAISS is a library developed']","['Pandas is a Python library', 'Pandas supports CSV files.', 'FAISS is a library developed']",True
+What is numpy?,"['NumPy provides support for arrays', 'Deep learning is a subset', 'Pandas is a Python library']","['NumPy provides support for arrays', 'Pandas is a Python library', 'FAISS is a library developed']",True
+What is RAG?,"['RAG combines retrieval with text', 'Deep learning is a subset', 'Pandas is a Python library']","['RAG combines retrieval with text', 'Pandas is a Python library', 'FAISS is a library developed']",True
+What is clustering?,"['Clustering groups similar data points', 'Deep learning is a subset', 'Pandas is a Python library']","['Clustering groups similar data points', 'Pandas is a Python library', 'FAISS is a library developed']",True
+What is regression?,"['Regression predicts continuous values.', 'Deep learning is a subset', 'Pandas is a Python library']","['Regression predicts continuous values.', 'Pandas is a Python library', 'FAISS is a library developed']",True

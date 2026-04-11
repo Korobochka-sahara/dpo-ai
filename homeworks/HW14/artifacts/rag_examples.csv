@@ -1,0 +1,6 @@
+question,answer,retrieved_sources
+What is FAISS?,FAISS is a library developed FAISS supports GPU acceleration,"['FAISS is a library developed', 'FAISS supports GPU acceleration.', 'FAISS supports GPU acceleration for']"
+What is recall?,Recall measures how many relevant Recall can be improved by Pandas is a Python library,"['Recall measures how many relevant', 'Recall can be improved by', 'Pandas is a Python library']"
+What is precision?,Precision measures how many retrieved Precision decreases when too many Pandas is a Python library,"['Precision measures how many retrieved', 'Precision decreases when too many', 'Pandas is a Python library']"
+What are embeddings?,Embeddings convert text into dense results are relevant,"['Embeddings convert text into dense', 'results are relevant.', 'irrelevant documents are retrieved.']"
+What is machine learning?,machine learning systems,"['machine learning systems.', 'Deep learning is a subset', 'data science, machine learning, and']"

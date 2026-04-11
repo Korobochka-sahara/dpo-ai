@@ -1,0 +1,11 @@
+query,expected_source,retrieved_sources,hit_at_k,rank_of_first_relevant
+What is FAISS?,faiss,"['FAISS is a library developed', 'Deep learning is a subset', 'Pandas is a Python library']",True,1
+What is recall?,recall,"['Recall measures how many relevant', 'Deep learning is a subset', 'Pandas is a Python library']",True,1
+What is precision?,precision,"['Precision measures how many retrieved', 'Deep learning is a subset', 'Pandas is a Python library']",True,1
+What are embeddings?,embeddings,"['Embeddings convert text into dense', 'results are relevant.', 'Retrieval systems are used to']",True,1
+What is machine learning?,machine learning,"['machine learning systems.', 'Deep learning is a subset', 'data science, machine learning, and']",True,1
+What is pandas?,pandas,"['Pandas is a Python library', 'Deep learning is a subset', 'FAISS is a library developed']",True,1
+What is numpy?,numpy,"['NumPy provides support for arrays', 'Deep learning is a subset', 'Pandas is a Python library']",True,1
+What is RAG?,rag,"['RAG combines retrieval with text', 'Deep learning is a subset', 'Pandas is a Python library']",True,1
+What is clustering?,clustering,"['Clustering groups similar data points', 'Deep learning is a subset', 'Pandas is a Python library']",True,1
+What is regression?,regression,"['Regression predicts continuous values.', 'Deep learning is a subset', 'Pandas is a Python library']",True,1
