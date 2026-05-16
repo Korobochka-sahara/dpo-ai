@@ -1,23 +1,65 @@
 # Исходный код проекта
 
-В этой папке размещается **основной код проекта**, который используется для:
+В данной папке расположен основной код проекта.
 
-- подготовки данных;
-- обучения моделей;
-- инференса (получения предсказаний);
-- запуска сервисов (API/CLI/скриптов).
+## Структура
 
-Примеры того, как можно организовать код (не обязательно строго так, но рекомендуется):
+### `API/`
 
-- `src/data/` — загрузка и подготовка данных;
-- `src/features/` — генерация и трансформация признаков;
-- `src/models/` — обучение и применение моделей;
-- `src/service/` — запуск сервиса (например, FastAPI/Flask);
-- `src/utils/` — вспомогательные функции.
+FastAPI сервис.
 
-Точки входа (скрипты, которые вы запускаете из командной строки), удобно оформлять как:
+Содержит:
+- endpoints;
+- request/response schemas;
+- запуск inference.
 
-- модули: `python -m src.train`, `python -m src.service`;
-- или скрипты в корне `src/`, например `src/train.py`, `src/service.py`.
+Основной endpoint:
+- `/predict`
 
-Опишите основные команды запуска в файле `project/README.md`.
+---
+
+### `data/`
+
+Загрузка и очистка данных:
+- чтение raw dataset;
+- preprocessing;
+- подготовка CSV.
+
+---
+
+### `features/`
+
+Подготовка признаков:
+- TF-IDF vectorization;
+- train/test split;
+- preprocessing pipeline.
+
+---
+
+### `models/`
+
+Inference и export моделей:
+- загрузка production модели;
+- prediction pipeline;
+- export artifacts.
+
+---
+
+### `utils/`
+
+Вспомогательные модули:
+- MLflow setup;
+- safe logging;
+- utility functions.
+
+---
+
+## Используемые технологии
+
+- FastAPI
+- scikit-learn
+- CatBoost
+- HuggingFace Transformers
+- PyTorch
+- MLflow
+- pytest
