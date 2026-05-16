@@ -7,6 +7,8 @@ from configs.config import PROCESSED_DIR, MODEL_DIR
 
 DATA_DIR = PROCESSED_DIR
 
+MODEL_DIR.mkdir(parents=True, exist_ok=True)
+
 train_df = pd.read_csv(DATA_DIR / "train_ml.csv")
 
 vectorizer = TfidfVectorizer(
