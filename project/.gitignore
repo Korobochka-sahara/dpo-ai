@@ -42,4 +42,4 @@ data/processed/
 # =========================
 # Pytest
 # =========================
-.pytest_cache/
+.pytest_cache/**/mlruns/
